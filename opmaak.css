@@ -3,8 +3,6 @@ body{
 	font-family: sans-serif;
 	background-image: url("blokjes.jpg");
 	background-size:100%;
-	background-repeat: no-repeat;
-	
 }
 .dropbtn {
 	background-image: url("foto/streepjes.png");
@@ -70,7 +68,7 @@ body{
 	width: 480px;
 	height: 230px;
 	background-image: url("vaag kleur.jpg");
-	background-size: 500px 250px ;
+	background-size: 500px 300px ;
 	font-size: 30px;
 	padding: 10px;
 	padding-bottom: 40px;
@@ -88,4 +86,7 @@ body{
 footer {
 	margin-top: 200px;
 	text-align: right;
+}
+#doelen {
+	font-size: 50px;
 }
