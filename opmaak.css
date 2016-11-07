@@ -67,9 +67,9 @@ body{
 #home_tekst {
 	color: black;
 	width: 550px;
-	height: 270px;
-	background-color: rgba(255, 255, 255, 0.5);
-	background-size: 500px 300px ;
+	height: 290px;
+	background-image: url("vaag kleur.jpg");
+	background-size: 100%;
 	font-size: 30px ;
 	border: 5px solid black;
 	padding-left: 20px;
@@ -190,4 +190,43 @@ footer {
 #facebook {
 	margin-left: 25px;
 	margin-top: 30px;
+}
+#overmij {
+	font-size: 20px;
+	height: 105px;
+	width: 900px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border:5px solid black;
+	margin: auto;
+	text-align: center;
+}
+#overmij_tekst {
+	font-size: 25px;
+	height: 220px;
+	width: 750px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border:5px solid black;
+	border-top: 0px;
+	margin: auto;
+	margin-top: 0px;
+	padding: 10px 25px;
+}
+#pw {
+	text-align: center;
+	font-size: 25px;
+	margin: 10px;
+}
+#LS {
+	text-align: center;
+	font-size: 70px;
+	margin: 0px;
+}
+#pakkend {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#klik {
+	text-align: center;
 }
