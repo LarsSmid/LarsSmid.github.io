@@ -230,3 +230,9 @@ footer {
 #klik {
 	text-align: center;
 }
+@media screen and (max-width: 1020px) and (min-width: 420px)
+{
+ body {
+ 	background-image: url("vaag kleur.jpg");
+ }
+}
