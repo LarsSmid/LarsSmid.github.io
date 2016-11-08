@@ -1,49 +1,24 @@
-
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-
-
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-}
 var chart = AmCharts.makeChart("chartdiv", {
     "theme": "light",
     "type": "serial",
     "startDuration": 3,
     "dataProvider": [{
-        "country": "",
-        "visits": 75 ,
+        "country": "Word",
+        "visits": 90 ,
         "color": "#04D215"
     }, {
-        "country": "Werken met klanten",
-        "visits": 90,
+        "country": "Power Point",
+        "visits": 80,
         "color": "#FCD202"
     }, {
-        "country": "CSS",
-        "visits": 75,
+        "country": "Excel",
+        "visits": 60,
         "color": "#2A0CD0"
     }, {
-        "country": "HTML",
-        "visits": 70,
+        "country": "Outlook",
+        "visits": 40,
         "color": "#FF6600"
-    }, {
-        "country": "JavaScript",
-        "visits": 30,
-        "color": "#FF0F00"
-    }, {
-        "country": "sublime text",
-        "visits": 90,
-        "color": "#333333"
-    },  ],
+    }, ],
     "valueAxes": [{
         "position": "left",
         "axisAlpha":0,
@@ -74,4 +49,3 @@ var chart = AmCharts.makeChart("chartdiv", {
     },
 
 }, 0);
-
