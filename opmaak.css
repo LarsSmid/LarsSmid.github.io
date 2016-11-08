@@ -5,18 +5,17 @@ body{
 	background-size:100%;
 }
 .dropbtn {
-	background-image: url("foto/streepjes.png");
+	background-image: url("foto/streepjes.svg");
 	background-size: 100%;
 	background-color: transparent;
     padding: 16px;
     font-size: 16px;
-    border:none;
+    border: none;
     cursor: pointer;
     width: 105px;
     height: 105px;
     margin-left: 37px;
     margin-top: 25px;
-   
 }
 
 
@@ -230,6 +229,10 @@ footer {
 #klik {
 	text-align: center;
 }
+#chartdiv {
+  width: 1000px;
+  height: 500px;
+}		
 @media screen and (max-width: 1020px) and (min-width: 420px)
 {
  body {
