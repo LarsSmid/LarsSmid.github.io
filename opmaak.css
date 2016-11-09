@@ -354,8 +354,8 @@ span:hover + #ballon {
 
 #home_tekst {
 	color: black;
-	width: 550px;
-	height: 290px;
+	width: 750px;
+	height: 450px;
 	background-image: url("vaag kleur.jpg");
 	background-size: 100%;
 	font-size: 30px ;
@@ -363,7 +363,7 @@ span:hover + #ballon {
 	padding-left: 20px;
 	font-weight: bold;
 	margin: auto;
-	margin-top: 400px;
+	margin-top: 300px;
 
 
 }
@@ -502,22 +502,23 @@ footer {
 }
 #pw {
 	text-align: center;
-	font-size: 25px;
+	font-size: 45px;
 	margin: 10px;
 }
 #LS {
 	text-align: center;
-	font-size: 70px;
+	font-size: 100px;
 	margin: 0px;
 }
 #pakkend {
 	text-align: center;
-	font-size: 30px;
+	font-size: 50px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 #klik {
 	text-align: center;
+	margin-top: 50px;
 }
 #chartdiv {
   width: 1000px;
