@@ -284,7 +284,9 @@ span:hover + #ballon {
 	margin-top: -100px;
 	margin-left: 10px;
 }
-
+#muziek {
+	display: none;
+}
 
 
 
@@ -352,18 +354,7 @@ span:hover + #ballon {
 .show {display:block;}
 }
 
-#home_tekst {
-	color: black;
-	width: 750px;
-	height: 450px;
-	background-image: url("vaag kleur.jpg");
-	background-size: 100%;
-	font-size: 30px ;
-	border: 5px solid black;
-	padding-left: 20px;
-	font-weight: bold;
-	margin: auto;
-	margin-top: 300px;
+
 
 
 }
@@ -500,26 +491,7 @@ footer {
 	margin-top: 0px;
 	padding: 10px 25px;
 }
-#pw {
-	text-align: center;
-	font-size: 45px;
-	margin: 10px;
-}
-#LS {
-	text-align: center;
-	font-size: 100px;
-	margin: 0px;
-}
-#pakkend {
-	text-align: center;
-	font-size: 50px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-#klik {
-	text-align: center;
-	margin-top: 50px;
-}
+
 #chartdiv {
   width: 1000px;
   height: 600px;
