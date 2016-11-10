@@ -1,19 +1,9 @@
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
 
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-
-
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
 }
 var chart = AmCharts.makeChart("chartdiv", {
     "theme": "light",
@@ -75,3 +65,12 @@ var chart = AmCharts.makeChart("chartdiv", {
 
 }, 0);
 
+
+function myFunction2() {
+    var person = prompt("Please enter your name", "Harry Potter");
+    
+    if (person != null) {
+        document.getElementById("demo").innerHTML =
+        "Hello " + person + "! How are you today?";
+    }
+}
