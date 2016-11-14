@@ -326,7 +326,17 @@ span:hover + #ballon {
 	margin-left: 100px;
 }
 
-
+#demo {
+	font-size: 40px;
+	height: 80px;
+	width: 900px;
+	background-color: rgba(255, 255, 255, 0.5);
+	border:5px solid black;
+	margin: auto;
+	margin-bottom: 10px;
+	text-align: center;
+	padding: 20px;
+}
 
 
 

@@ -66,11 +66,12 @@ var chart = AmCharts.makeChart("chartdiv", {
 }, 0);
 
 
-function myFunction2() {
-    var person = prompt("Please enter your name", "Harry Potter");
+
+function open_on_entrance(url,name){
+   var person = prompt("Mag ik je naam?", "typ hier je naam");
     
     if (person != null) {
         document.getElementById("demo").innerHTML =
-        "Hello " + person + "! How are you today?";
+        "Welkom " + person + "! Geniet van mijn website.";
     }
 }
