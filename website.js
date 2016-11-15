@@ -1,3 +1,5 @@
+var firstName;
+
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
@@ -68,10 +70,19 @@ var chart = AmCharts.makeChart("chartdiv", {
 
 
 function open_on_entrance(url,name){
-   var person = prompt("Mag ik je naam?", "typ hier je naam");
     
+   var person = prompt("Mag ik je naam?", "typ hier je naam");
+    firstName = person;
     if (person != null) {
         document.getElementById("demo").innerHTML =
         "Welkom " + person + "! Geniet van mijn website.";
     }
+}
+
+
+
+function lullen()
+{
+    console.log(firstName);
+    responsiveVoice.speak("welcome " + firstName + "! enjoy my website");
 }

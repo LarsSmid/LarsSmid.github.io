@@ -317,13 +317,21 @@ span:hover + #ballon {
 	display: inline;
 	position: absolute;
 	margin-top: 200px;
+	margin-left: -20px;
 }
 #facebook {
 	display: inline;
 	font-size: 60px;
 	position: absolute;
 	margin-top: 200px;
-	margin-left: 100px;
+	margin-left: 130px;
+}
+#mail {
+	display: inline;
+	font-size: 60px;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 50px;
 }
 
 #demo {
