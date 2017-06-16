@@ -1,0 +1,484 @@
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'codropsicons';
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+  background: url(background_header.jpg) no-repeat top center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+  color: #383a3c;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.25;
+  font-family: 'Raleway', Calibri, Arial, sans-serif;
+
+}
+
+a, button {
+  outline: none;
+}
+
+a {
+  color: #566473;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: grey;
+}
+
+section {
+  padding: 1em;
+  text-align: center;
+}
+
+p.ref {
+  text-align: center;
+  padding: 2em 1em;
+}
+
+/* Header */
+.codrops-header {
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+  max-width: 900px;
+}
+
+.codrops-header h1 {
+  margin: 0;
+  font-size: 4.5em;
+  line-height: 1;
+  font-weight: 200;
+}
+
+.codrops-header h1 span {
+  display: block;
+  padding: 1em 0 1.5em;
+  font-size: 36%;
+  color: #95a5a6;
+  line-height: 1.4;
+}
+
+/* To Navigation Style */
+.codrops-top {
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 0.69em;
+  text-align: center;
+  padding: 3em 0;
+}
+
+.codrops-top a {
+  display: inline-block;
+  padding: 1.5em;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.codrops-icon:before {
+  margin: 0 4px;
+  text-transform: none;
+  font-weight: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-family: 'codropsicons';
+  line-height: 1;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+.codrops-icon-drop:before {
+  content: "\e001";
+}
+
+.codrops-icon-prev:before {
+  content: "\e004";
+}
+
+/* Demo Buttons Style */
+.codrops-demos {
+  padding-top: 1em;
+  font-size: 0.8em;
+}
+
+.codrops-demos a {
+  display: inline-block;
+  margin: 0.35em 0.1em;
+  padding: 0.5em 1.2em;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  border-radius: 2px;
+  font-size: 110%;
+  border: 2px solid transparent;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo {
+  border-color: #383a3c;
+}
+
+.codrops-demos h3 {
+  margin: 0;
+  padding: 1em 0 0.5em 0;
+  font-size: 0.9em;
+  float: left;
+  min-width: 90px;
+  clear: left;
+}
+
+.codrops-demos div:not(:first-child) h3 {
+  padding-top: 2em;
+}
+
+.codrops-demos a:hover,
+.codrops-demos a.current-demo {
+  color: inherit;
+  border-color: initial;
+}
+
+/* Related demos */
+.related {
+  padding: 10em 0;
+}
+
+.related p {
+  font-size: 1.5em;
+}
+
+.related > a {
+  display: inline-block;
+  text-align: center;
+  margin: 20px 10px;
+  padding: 25px;
+  vertical-align: middle;
+}
+
+.related a img {
+  max-width: 100%;
+  opacity: 0.8;
+  border-radius: 10px;
+}
+
+.related a:hover img,
+.related a:active img {
+  opacity: 1;
+}
+
+.related a h3 {
+  margin: 0;
+  min-height: 63px;
+  padding: 0.5em 0 0.3em;
+  max-width: 300px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1em;
+}
+#klik {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  display: block;
+  margin-left: -40px;
+  padding: 0;
+  width: 120px;
+  height: 80px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px black;
+}
+#klik:hover {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  display: block;
+  margin-left: -40px;
+  padding: 0;
+  width: 120px;
+  height: 80px;
+  border: none;
+  background: transparent;
+  color: grey;
+  font-size: 40px;
+  cursor: pointer;
+}
+@media screen and (max-width: 40em) {
+
+  .codrops-header h1 {
+    font-size: 2.5em;
+  }
+}
+
+#koptekst {
+  font-size: 50px;
+}
+#third {
+  height: 420px;
+  background-color: white;
+  margin-top: -100px;
+  padding-left: 200px;
+  font-family: 'Clicker Script', cursive;
+}
+#fourth {
+  height: 600px;
+
+}
+.mezelf {
+  margin-top: 100px;
+  padding-top: 20px;
+  font-size: 40px;
+}
+#space {
+  height: 700px;
+  position: relative;
+}
+.tekst_mezelf {
+  font-size: 30px;
+  opacity: 0;
+}
+
+.home_foto {
+  float: right;
+  margin-right: 200px;
+  margin-top: -280px;
+  border-radius: 50%;
+  opacity: 0;
+}
+.text {
+  color: black;
+  margin-left: 600px;
+  font-family: 'Clicker Script', cursive;
+  font-size: 40px;
+  margin-top: -400px;
+  position: absolute;
+}
+#text2{
+  color: white;
+  margin-left: 650px;
+  margin-top: 130px;
+  font-family: 'Clicker Script', cursive;
+  font-size: 30px;
+}
+#diagram {
+  margin-left: 900px;
+  width: 500px;
+  margin-top: -100px;
+}
+
+#html, #css, #JavaScript, #PHP, #MySQL {
+  color: transparent;
+}
+
+#kopje2 {
+  font-family: 'Clicker Script', cursive;
+  color: white;
+  margin-top: 0px;
+  padding-top: 40px;
+  font-size: 40px;
+  margin-left: 550px;
+  font-weight: bold;
+   text-shadow: 2px 2px 4px black;
+}
+#fifth {
+  height: 750px;
+
+}
+#Ervaringen1{
+  margin-left: 400px;
+  height: 150px;
+  width: 300px;
+}
+#Ervaringen2 {
+  margin-left: 800px;
+  height: 150px;
+  width: 300px;
+}
+#Ervaringen3 {
+  margin-left: 400px;
+  height: 150px;
+  width: 300px;
+}
+#kopje3{
+  font-family: 'Clicker Script', cursive;
+  margin-top: 0px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+#text{
+  font-family: 'Clicker Script', cursive;
+  margin-top: -40px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+#sixth{
+  height: 300px;
+  background: black;
+  box-shadow: inset 0px 13px 57px -4px rgba(0,0,0,0.55);
+}
+.container {
+
+
+  position: relative;
+  font-family: 'Trebuchet Ms';
+}
+
+.bg {
+  background: #000;
+  width: 100%;
+  height: 70px;
+  opacity: 0;
+}
+
+.show {
+  opacity: 0.4;
+}
+
+.transition {    
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+ul {
+  height: 00px;
+  margin: -70px 10px;
+
+}
+
+li {
+  float: left; 
+  list-style: none;
+  margin: 10px 10px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #000;
+}
+
+a {
+  text-align: center;
+  font-size: 50px;
+  color: #bdbdbd;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 5px;
+  text-shadow: 1px 1px 1px #949494;
+  
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  display: block;
+}
+
+a:hover {
+  color: #a6a6a6;
+  text-shadow: 1px 1px 1px #C9C9C9;
+}
+.bar {
+  float: left; 
+  list-style: none;
+  margin: 10px 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #000;
+  font-size: 20px;
+}
+#con {
+  margin-left: 700px;
+}
+ .typing {
+  overflow: hidden;
+  border-right: .15em solid darkgrey;
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+  font-size: 50px;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: darkgrey; }
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 2em;
+  width: 60%;
+}
+
+.medium {
+  color: #ddd;
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+  margin-top: -20px;
+  margin-left: 50px;
+  padding: 30px;
+}
+
+[title="Instagram"]:hover{
+  color: pink;
+}
+[title="GitHub"]:hover{
+  color: rgb(114,49,132);
+}
+[title="Facebook"]:hover{
+  color: blue;
+}
+[title="Contact"]:hover{
+  color: rgb(230,182,10);
+}
+[center]{
+  margin: auto auto;
+}
+#bottom {
+  color: white;
+}
+::-webkit-scrollbar {
+display: none;
+}
+#kopje4 {
+  font-family: 'Clicker Script', cursive;
+  margin-top: 0px;
+  font-size: 40px;
+  margin-left: 700px;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
